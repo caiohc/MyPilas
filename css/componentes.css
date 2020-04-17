@@ -1,0 +1,79 @@
+/*-----------------------------*\
+	PLANO
+\*-----------------------------*/
+.plano {
+	padding-bottom: 1.4286em;
+	margin-bottom: 1.4286em;
+	border: 1px solid #95a4a5;
+	
+	font-size: 1.4rem;	
+}
+
+@media (min-width: 960px) {
+	.plano {
+		margin-bottom: 0;
+	}
+}
+
+.plano__cabecalho {
+	margin-top: 0;
+	
+	background-color: #95a4a5;
+	color: #fff;
+	
+	text-align: center;
+	line-height: 2.5;
+	font-weight: normal;
+	font-size: 2em; 
+}
+
+.plano__preco {
+	margin: 0.7143em 0;
+	
+	text-align: center;
+	font-size: 2em;	
+}
+
+.plano__caracteristicas {
+	padding: 0;
+	margin: 1.4286em 0 2.8571em;
+	
+	font-size: 1em;
+	
+	list-style: none;	
+}
+
+.plano__caracteristicas > li {
+	text-align: center;
+}
+
+.plano__rodape {
+	text-align: center;
+}
+
+/*-----------------------------*\
+	BOTÃO
+\*-----------------------------*/
+.botao {
+	padding: 0.8571em 1.1429em;
+	
+	background-color: #bbb;
+	color: #fff;
+	
+	text-decoration: none;
+}
+
+.botao:hover, .botao:focus {
+	background-color: #aaa;
+	color: #fff;
+	
+	text-decoration: none;	
+}
+
+.botao--assinar {
+	background-color: #127d00
+}
+
+.botao--assinar:hover, .botao--assinar:focus {
+	background-color: #0e6400;
+}
